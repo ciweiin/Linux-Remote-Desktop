@@ -76,7 +76,7 @@ yum install libX11-devel freetype-devel zlib-devel libxcb-devel libxslt-devel li
 rpm -Uvh --force https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/CentOS/Wine/wine32-release.rpm --quiet
 yum install wine.i686 -y
 yum install wine -y
-sudo wget -O /usr/share/wine/fonts/msyh.ttc https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/Fonts/TTF-Wine/msyh.ttc
+sudo wget -O /usr/share/wine/fonts/msyh.ttc https://gitee.com/root_ciwei/Linux-Remote-Desktop/raw/master/CNDownload/Common/Fonts/TTF-Wine/msyh.ttc
 sudo wget -O /usr/share/wine/fonts/msyhbd.ttc https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/Fonts/TTF-Wine/msyhbd.ttc
 sudo wget -O /usr/share/wine/fonts/msyhl.ttc https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/Fonts/TTF-Wine/msyhl.ttc
 sudo wget -O /usr/share/wine/fonts/simfang.ttf https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/Fonts/TTF-Wine/simfang.ttf
@@ -99,8 +99,8 @@ echo -e "\n"
 cd /root
 rpm -Uvh --force https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/WPS/CentOS/libpng12-1.2.50-10.el7.x86_64.rpm --quiet
 rpm -Uvh --force https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/WPS/CentOS/mesa-libGLU-9.0.0-4.el7.x86_64.rpm --quiet
-rpm -Uvh --force https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/WPS/wps-office-10.1.0.5707-1.a21.x86_64.rpm --quiet
-rpm -Uvh --force https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/WPS/wps-office-fonts-1.0-1.noarch.rpm --quiet
+rpm -Uvh --force https://gitee.com/root_ciwei/Linux-Remote-Desktop/raw/master/CNDownload/Common/WPS/wps-office-10.1.0.5707-1.a21.x86_64.rpm --quiet
+rpm -Uvh --force https://gitee.com/root_ciwei/Linux-Remote-Desktop/raw/master/CNDownload/Common/WPS/wps-office-fonts-1.0-1.noarch.rpm --quiet
 sudo wget -O /usr/share/fonts/mtextra.ttf https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/Fonts/TTF-Sys/mtextra.ttf
 sudo wget -O /usr/share/fonts/symbol.ttf https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/Fonts/TTF-Sys/symbol.ttf
 sudo wget -O /usr/share/fonts/WEBDINGS.TTF https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/Fonts/TTF-Sys/WEBDINGS.TTF

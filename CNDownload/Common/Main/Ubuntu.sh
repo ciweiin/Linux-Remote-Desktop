@@ -559,7 +559,7 @@ sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
 apt-get update -y
 sudo apt-get install --install-recommends winehq-stable -y
 mkdir -p  ~/.wine/drive_c/windows/Fonts/
-sudo wget -O ~/.wine/drive_c/windows/Fonts/msyh.ttc https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/Fonts/TTF-Wine/msyh.ttc
+sudo wget -O ~/.wine/drive_c/windows/Fonts/msyh.ttc https://gitee.com/root_ciwei/Linux-Remote-Desktop/raw/master/CNDownload/Common/Fonts/TTF-Wine/msyh.ttc
 sudo wget -O ~/.wine/drive_c/windows/Fonts/msyhbd.ttc https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/Fonts/TTF-Wine/msyhbd.ttc
 sudo wget -O ~/.wine/drive_c/windows/Fonts/msyhl.ttc https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/Fonts/TTF-Wine/msyhl.ttc
 sudo wget -O ~/.wine/drive_c/windows/Fonts/simfang.ttf https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CNDownload/Common/Fonts/TTF-Wine/simfang.ttf
