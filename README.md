@@ -40,6 +40,7 @@
     (Ubuntu 18.04+)		bash ~/Linux-Remote-Desktop-Environment.sh -Ubuntu
 
 国内加速版 (via root user)
+
     wget --no-check-certificate -qO ~/Linux-Remote-Desktop-Environment.sh 'https://cdn.jsdelivr.net/gh/ciweiin/Linux-Remote-Desktop@latest/CN-Linux-Remote-Desktop-Environment.bash' && chmod a+x ~/Linux-Remote-Desktop-Environment.sh
     (CentOS 7+)			bash ~/Linux-Remote-Desktop-Environment.sh -CentOS
     (Debian 9+)			bash ~/Linux-Remote-Desktop-Environment.sh -Debian
